@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Modern Login/Signup Form</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="form-box">
+
+            <header>
+
+                <h1 id="title">LOGIN</h1>
+
+            </header>
+
+            <form id="loginForm">
+
+                <input type="text" placeholder="Name" id="nameField" style="display: none;">
+
+                <input type="email" placeholder="Username Or Email Address" id="emailField" required>
+
+                <input type="password" placeholder="Password" id="passwordField" required>
+
+                <a href="#">Forget Password</a>
+
+                <input type="submit" value="Login" id="submitButton">
+
+                <div class="links">
+
+                    <a href="#"><img src="LOGIN PICS/facebook.png" alt=""></a>
+
+                    <a href="#"><img src="LOGIN PICS/google.png" alt=""></a>
+
+                </div>
+
+                <p class="signup">Not a Member?<a href="#" id="signUpBtn">Sign Up</a></p>
+
+                <p id="errorMessage" class="error-message" style="display: none;">Your Email And Password Is Incorrect</p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
